@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Board Land</string>
+    <string name="business_name">Board Land</string>
+    <string name="description">A second-hand store where everyone can find a piece of entertainment</string>
+    <string name="about_us">About Us</string>
+    <string name="address_title">Address:&#160;</string>
+    <string name="email_title">Email:&#160;</string>
+    <string name="website_title">Website:&#160;</string>
+    <string name="address">Socratous 13, Kifisia</string>
+    <string name="email">info@boardland.gr</string>
+    <string name="website">www.boardland.gr</string>
+</resources>

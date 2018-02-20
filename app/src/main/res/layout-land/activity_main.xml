@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:src="@drawable/board_game_land" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/small">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/subtitude_subamera"
+            android:gravity="center_horizontal"
+            android:text="@string/business_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tiny"
+            android:fontFamily="@font/zephyris_treatise"
+            android:gravity="center_horizontal"
+            android:text="@string/description"
+            android:textColor="@color/black"
+            android:textSize="@dimen/body" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/tiny"
+            android:layout_marginTop="@dimen/medium"
+            android:fontFamily="@font/subtitude_subamera"
+            android:text="@string/about_us"
+            android:textColor="@color/black"
+            android:textSize="@dimen/second_title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/zephyris_treatise"
+                android:text="@string/address_title"
+                android:textColor="@color/black"
+                android:textSize="@dimen/body"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/zephyris_treatise"
+                android:text="@string/address"
+                android:textColor="@color/black"
+                android:textSize="@dimen/body" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/zephyris_treatise"
+                android:text="@string/email_title"
+                android:textColor="@color/black"
+                android:textSize="@dimen/body"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="email"
+                android:fontFamily="@font/zephyris_treatise"
+                android:text="@string/email"
+                android:textColor="@color/black"
+                android:textSize="@dimen/body" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/zephyris_treatise"
+                android:text="@string/website_title"
+                android:textColor="@color/black"
+                android:textSize="@dimen/body"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:fontFamily="@font/zephyris_treatise"
+                android:text="@string/website"
+                android:textColor="@color/black"
+                android:textSize="@dimen/body" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
