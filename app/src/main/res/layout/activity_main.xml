@@ -20,33 +20,23 @@
         android:padding="@dimen/small">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/subtitude_subamera"
+            style="@style/HeaderText"
             android:gravity="center_horizontal"
             android:text="@string/business_name"
-            android:textColor="@color/black"
-            android:textSize="@dimen/title"
-            android:textStyle="bold" />
+            android:textSize="@dimen/title" />
 
         <TextView
+            style="@style/BodyText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/tiny"
-            android:fontFamily="@font/zephyris_treatise"
             android:gravity="center_horizontal"
-            android:text="@string/description"
-            android:textColor="@color/black"
-            android:textSize="@dimen/body" />
+            android:text="@string/description" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/HeaderText"
             android:layout_marginBottom="@dimen/tiny"
             android:layout_marginTop="@dimen/medium"
-            android:fontFamily="@font/subtitude_subamera"
             android:text="@string/about_us"
-            android:textColor="@color/black"
             android:textSize="@dimen/second_title" />
 
         <LinearLayout
@@ -55,21 +45,14 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/zephyris_treatise"
+                style="@style/BodyText"
+                android:drawableLeft="@drawable/ic_location_on_black_18dp"
                 android:text="@string/address_title"
-                android:textColor="@color/black"
-                android:textSize="@dimen/body"
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/zephyris_treatise"
-                android:text="@string/address"
-                android:textColor="@color/black"
-                android:textSize="@dimen/body" />
+                style="@style/BodyText"
+                android:text="@string/address" />
 
         </LinearLayout>
 
@@ -79,22 +62,15 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/zephyris_treatise"
+                style="@style/BodyText"
+                android:drawableLeft="@drawable/ic_email_black_18dp"
                 android:text="@string/email_title"
-                android:textColor="@color/black"
-                android:textSize="@dimen/body"
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/BodyText"
                 android:autoLink="email"
-                android:fontFamily="@font/zephyris_treatise"
-                android:text="@string/email"
-                android:textColor="@color/black"
-                android:textSize="@dimen/body" />
+                android:text="@string/email" />
 
         </LinearLayout>
 
@@ -104,22 +80,15 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/zephyris_treatise"
+                style="@style/BodyText"
+                android:drawableLeft="@drawable/ic_language_black_18dp"
                 android:text="@string/website_title"
-                android:textColor="@color/black"
-                android:textSize="@dimen/body"
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/BodyText"
                 android:autoLink="web"
-                android:fontFamily="@font/zephyris_treatise"
-                android:text="@string/website"
-                android:textColor="@color/black"
-                android:textSize="@dimen/body" />
+                android:text="@string/website" />
 
         </LinearLayout>
 
